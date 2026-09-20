@@ -192,6 +192,14 @@ For a production release, use a reviewed PyInstaller spec and sign the resulting
 
 Changes should preserve the consent-based telemetry boundary. New collectors must document exactly which fields they collect and must not expand into credentials, private communications, keystrokes, clipboard data, surveillance media, or arbitrary file collection.
 
+## Beginner step-by-step implementation
+
+If you want to build and use this project one task at a time, follow the repository's **waterfall guide**. Complete each step, run its verification command, and only then continue.
+
+**Guide:** [docs/STEP-BY-STEP.md](docs/STEP-BY-STEP.md)
+
+The guide covers setup, virtual environment, dependencies, configuration, tests, server startup, local collection, enrollment, authenticated reporting, offline queue/resume, revocation, optional Telegram reporting, Windows EXE packaging, daily Git workflow, and production checks.
+
 ## License
 
 MIT
